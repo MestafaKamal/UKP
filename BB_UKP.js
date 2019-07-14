@@ -1,11 +1,5 @@
 /*
-Rédaction de l'explication du branch and bound pour le knapsack UNBOUND
-Pour chaque objet on peut en prendre autant qu'on le veut
-Pour le branch and bound il dit il a déduit son code du support du cours
-
-
-Afin de résoudre le problème avec la méthode de Branch and Bound, on commence par poser une solution première que l'on essaye d'améliorer. La solution première est composée d'un tuple d'objets ayant les plus grands rapports valeur/poids, c'est à dire qu'on cherche des objects ayant de grandes valeurs par rapport à leurs poids.
-
+UKP with Branch and Bound
 */
 
 
@@ -26,7 +20,7 @@ function Knapsack_BB(W, wt, v) {
             }
         } else {
             if (evaluation.value > AcctualSolution.value + 1)
-                nodes.push({depth: 0, tuple: [...tuple], eval: evaluation.value}) //depth n'est pas nécessaire
+                nodes.push({depth: 0, tuple: [...tuple], eval: evaluation.value}) //depth n'est pas nÃ©cessaire
         }
     }
     while (nodes.length) {
