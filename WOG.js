@@ -1,10 +1,6 @@
 /*
 Weighted-oredered greedy heuristic
-Cette heuristique est très simple. On choisit le poids comme critère du meilleur objet. On prend
-l'objet du poids minimum et on remplit le sac à dos par autant d'exemplaires possible. 
 
-La complexité de cette algorithme est O(n) dû à la recherche de l'objet de poids minimum. 
-Dans le pire des cas, on parcourt tout les objets.
 */
 function WOG_UKP(W, val, wt) {
 
