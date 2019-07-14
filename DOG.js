@@ -1,9 +1,6 @@
 /*
 Density-oredered greedy heuristic
 
-Cet algorithme détermine une solution récursivement en considérant à chaque étape l'objet dont le coût marginal est minimal. 
-On ajoute donc le nombre maximal d'unités de chaque objet dans l'ordre décroissant de leur capacité.
-
 */
 function DOG_UKP(W, val, wt) {
 
